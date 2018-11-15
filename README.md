@@ -107,12 +107,25 @@ The results show where it is divided by training percentages and testing accordi
 According to table 2, it can be seen that the best method for vector support machines is the gradient-oriented histograms with the Fourier ellipticals with a percentage of 70 %, 69 %, 69 % accuracy, recall and F1-score respectively using 80 % of Training set and 20 % test set.
 
 Being:  
-P: Precision, R: Recall and F1: F1-score
-EF: Elliptic Fourier
-HOG: gradientes-oriented histograms
-HOG-PCA: Gradient-oriented histograms with main componentes analysis
-Hu: Hu Moments
+P: Precision, R: Recall and F1: F1-score\n
+EF: Elliptic Fourier\n
+HOG: gradientes-oriented histograms\n
+HOG-PCA: Gradient-oriented histograms with main componentes analysis\n
+Hu: Hu Moments\n
 
 <p align="center"><img src="https://lh3.googleusercontent.com/hRcPb5rEMKbzf3RsMjTvEzUrDEnWHymU7cxZv_MJnsx2iiyO4yfXq8MYF9MuT1zov2yVvkGyt8oOyFWNWLlxk6gW2fHbEB_LyCF7wG2iL6nIfRfSUVCeNioMnKtP0-_1XxEd1LBmQALRN3sVHkQXrTiJemoKZ2PrVxWtJcJgdQYv1vb0UfyMxRG1xrIQU5Ar39VapFaJEbxu51lEnkW12gO6DGpclZGf74PV9x0O82ruYbfsidpBlDEq32cOEthn91f-sAwRDOq__nbEwTXl7NwVK2CVaNl_iLzKv4VjRvl3pyKarnbiGNhqThhy0q1FWYu2MD1c9jLaup1BhnmWHoEay1hajYOmLsq7NRnHLjgo0gt-RfbFDKSuOTitfl4Bq29nmZMsnim4adr3vJRgYoJmkPBbhfOd4Tzto2_JLKlxUqGVncty3fKd7mDLUtyeHhzHkNJHT57-NT0IWMER9JDxluK0SvrrHa6W0UEozZ0bU4rA1Ya6U8CVlpMVWSnH3nB_vEAoPW3srW2DorByw1J7R59s4E4QHuHfJWbeZVjaL00Ct4ltoXerrfvFnZeVlaU9DGHqK720u2yD-0I0RT3uAjxZBfDZT3mKugttpqaijBSgKciwNOCVaHJ5n8N84AprCDVVE-ovV5DnvwTpMYNP=w576-h498-no">
   https://photos.app.goo.gl/gCQdjaAkZDm7xwTx9
 </p>
+
+Then in Figure is shown the matrix of confusion for the best model of the SVM where you can see in the X axis predicted labels and on the axis and the true labels, this way you can spot graphically the model and detect in which Labels are confused more, for this case the classes with which the model is most confused with the class 0 and the U class.
+
+
+ 
+
+<h1 align="left"><B>Conclusions</B></h1>
+<p align="justify">
+ 
+ 1. With this method for the recognition of Colombian sign language can be tried with new signs extending the dataset, also is open research because it can be tested with new methods of preprocessing, extraction of characteristics, classification being able to get to raise even more the percentages of prediction.
+ 2. According to the methods used for the extraction of characteristics, based on table 2, the characteristics of the gradient-oriented histograms (HOG) are the ones that obtained the highest percentage.
+ 3. When performing the main component analysis process, it is concluded that this process will reduce the percentage of the model's performance measure slightly.
+ 4. The geometric characteristics did not give a good result because the images contain similar characteristics such as the area or contour, this results in the model being able to predict the signs in a bad way.
