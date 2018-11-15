@@ -68,6 +68,10 @@ KERNEL  | rbf
 GAMMA  | 0.0001, 0.001, 0.01, 0.1, 0.2, 0.5
 C  | 0.01, 0.1, 1, 10, 100, 1000
 
+<p align="center"><img src="https://lh3.googleusercontent.com/y-wOt4qpbct1mOz6pQ8tl932cYjMuvNyOhQzXNhIxjEHAwKGaAWnztnHKXXxGHtApFqXphtx9u2r9J08vtgIBFX-ikDQEFc_p7TQUk5YRGaZFbVDDvO1l0vsNduD4h3OOcnRhEfuW0Q5_WcVHtfVGWk7l0GxJ_xx7mxcNPK6B0oOfI8A6IBU-kKKdvPWztLcFcYfy0y8nc4WfbNxlOJDMMLRMhICGFkY3B1ojlqiW96eS0YmhWQshkHhpLmWPVg9PMY0IVj18xyv6oGKLpNQswE9dg7wXC8ZejRqq9AoWe1ICrf49SCMa-55NmYExdWH7qFSTEc0kFd3EoVGvUCbDiq9ge1VBtVlPeIkAzP4fgOQrajZ_dffN_dUUlkSK8yjte0cffQxsdJB9YEeKpXIaovO9-bgOvEWEI5LDC6zOHjrivAXdnzM5WVPPid-72XZ_MAUfpcAVIgOmCIKGPemuImqK6mZTIxfa9kUdKxe0yV8nJYfLXsI1IADalO9R4Lmco1DSKcCzFbncDqQfQUAiVHRYk30wsEr_q0sK-ORw532WjE61cWZ_nUOVeV-Y6fzYMzThHGgvJLQA3dtL9frVCmftv7CFGdAjlKsxg5Vlvj0qoh_nhzUWzKV1rSou2rxf46c-iYlw2TE2agDo5YBCYvl=w584-h577-no">
+  https://photos.app.goo.gl/tJYim9w7Fymg31449
+</p>
+
 For the classification with Neural Network, the following hyper-parameters were used:
 
 
@@ -78,6 +82,10 @@ SOLVER  | ['lbfgs']
 LEARNING_RATE_INIT  | [0.0001]
 HIDDEN_LAYER_SIZES  | [(100, 1), (100, 2), (100, 3)]
 
+<p align="center"><img src="https://lh3.googleusercontent.com/KZaWOSFQx9GAcQM8f-Hc6iJjwOTBxyL-hfvsDFLZARuFzorUuoSll_onTJOLHpbEryHTPtdbe6-V8Py5urHi5bEN7Ux7BllcZItkot5wa9fo5f9keagqE1togpBxA-pg-fuYiqkY00-LoRmwC0oihUDJ1xX9pQAx-9_6k4A8u0-U794cekVYRS7EbgKbAFMUt_sP1ITye7HFdyj_Pqls6pP61T7WbUPsUk2HkETyN7ia5Sva84uzkTakrzzCcBCL0MTFuPMt6jEvFVRJ69G_vnXpEfPyNT4Dz4jg3dC7c512ByHnv7YgTb6PC-VIa1Bkvm6GaZVCDDcmt28eVTiQoW7GHYrNFbRUYyHLYnNlaD6YKcr7x1G-koJCR2O0NPNuVZ7SgSW8qyRsYK_mxIBCGqyu4UsFGCx-Xodb9ioHct4vrJRpOJDYo7Y7D_bh7qzcjodnDGVPleMQkKJgV0QLKKlJnpBeQgrSxX6VQ8v2SZmV1t_tav1JB21PrNQLrvawoVIJMFBVNtEeMN4imxQ95SS5spgdbckHi_uc5z-mm1MLq7Us6BAuSCC0Nj6xBmr5pY97iTpzpKaO8VpPy2lftipyjhdgYx2gLCNBCcQTy0RQZ7VE5i6U546CdotHGjmb3RAUkBRa2FMS-vZ9UmWNLph7=w969-h494-no">
+  https://photos.app.goo.gl/CMpRy1aQexy1QCsq9
+</p>
+
 For the classification with K-Nearest Neighbors, the following hyper-parameters were used:
 
 
@@ -87,3 +95,7 @@ N_NEIGHBORS  | [1,2,4,6,8,10]
 ALGORITHM  | ['auto']
 WEIGHTS  | ['uniform', 'distance']
 N_JOBS  | [-1]
+
+<p align="center"><img src="https://lh3.googleusercontent.com/qqgJWCLN-lH1gSGA2DOM1ERjPEDJIRGcTlKUYLo9sCoDNPu3ubOLqf4Mj-5O6ZEpB3bBbrCX3IdxMoj7u57_Po1wFMXDJynEjOMRHzY8dGyehmb71qJiKBwbN0Pg03fLlQbPT_USgV2svWdlpQ6vFDgYih7luYbwrFukDSZWZ441TsLYMxJU-v4OKpKnfSY3jDOKQ7F-v2MY2v77EuOZmfxpCmgnezb87_GPM3tmM57SoGHg0yowa_cqxKzu3l-QMDFOG4wBKp921suevgHjAR9TisfSOkcwFRjGwaHhl1SB43tm8ptImZmpqJcoTokRF-hNmCN-4QgiORFtLg_f9Ma6fMZa8vHx02IDKGv1IhEC5EwTjI3UqC21gJzLXZ-nW0A30nWKHyaJ07fg57Hqk25l9024nIrQYa1UXAHKLMa-Vz03B_8MuI35Y7nXbRT8X6AKPCAzsG7bbuR7X6ZTcjKvs7rsqZde4C83pH4sgrMcc4lFs9-OPN2kfdaZ8f7552bYqVSjsTnW1rKPSfiipLVHYevfalycjgzIxEaBatlnUOWdQ_62DiVIWuZP4rooBazyWZNLqICE8hWmmXtc2vMY2Ynk4B6NQYmoDxKEMPBQpTlijC_3lOPoJ74LZLz94KexpOq8dmDnunhByG_F3lTl=w747-h603-no">
+  https://photos.app.goo.gl/iRLjPgWM78wWdyxe9
+</p>
