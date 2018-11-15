@@ -42,4 +42,27 @@ After getting the features we store them in. txt files:
   https://photos.app.goo.gl/pQD4LcochbsHBvxx6
 </p>
 
+<h1 align="left"><B>Fourth step: Sampling</B></h1>
+<p align="justify">
+ 
+At this stage sampling is carried out using cross-validation of K-folds using 5 pages, the data is divided with percentages of 70 %, 75 % and 80 % to train the algorithm and percentages of 30 %, 25 %, 20 % for the test set, respectively, of each folio is Gets a validation score and finally calculates the average of the scores.
 
+<p align="center"><img src="https://lh3.googleusercontent.com/ojHNqTy0mLJ0Ah1dMstdm0OCnrjXLCFIdQgJGgv1V29BLAACcobZ3KMUYhPwaEaQRkD1Te_9qfgFt0vY3laK0y_95xYBljG5n7NYLqMwjNRlUdAW4Bbjdk3FP4GAwa9et4cRmo55oOioB5B4LP0LQZ4KleRBuQ-gh_71BwHHTqtm4QjbwdZGUSAk8v4NISz0FPVdawwKNOrUdo8vTnfRCYGJs90zoimCql8Il4nYIua4iAm9qzJoLF3-n3q61kJAJR7-pXP4Qe28C9x1TtPPaj1Rm8Qa6oza3antDn1X44zb1vVq6mTThto9RbzpH2lDKr1pd0_n3lXPWb6TcpAB2c2QTijBkuMKeoe53egVvOwY7dVJiLYkrE9I9E0K2CQ1NQwwIE-lzjxhFzvrfFlDUQnOap80MwOyYWNH75yUwLppwpcuek4aGmvnirzvlAsHWm32Vv6mzHyys1gjNK6EZrN0NguxKmCTdGQF18NSy6pu7Sn_zKGoX14Q4_NGW7EUWxmh1gP06fWAcKVDGTrQBZTqqO7VJT4-vN3djN3hIF0WCgEEU2ciUw5aC26DPd6mE0UJnxj9OEpy6zTCYAgo2VxLuaMwqCa9hZezigXcIgM3393cxrNp2e6rptCfcHyaaMzFXxWsFwTJ0_rW3T6-gd7z=w1221-h656-no">
+  https://photos.app.goo.gl/rf9rrNQW6Fm8iR7h8
+</p>
+  
+<h1 align="left"><B>Fifth step: Classification</B></h1>
+<p align="justify">
+  
+ The grading stage consists of two key units, the feature extraction unit and the Pattern rating unit. 
+First, characteristics such as Hu moments, gradient-oriented histograms, Fourier ellipticals and geometric characteristics are extracted. Applying PCA (principal component analysis) to HOG to take only the most relevant or important features.
+Following the pattern classification unit is implemented using the vector support machine method.
+Finally the patterns are recognized and they are classified in their different classes.
+
+For the classification with vector support machines, the following hyper-parameters were used:
+
+Parameter     | 
+------------- | -------------
+KERNEL  | rbf
+GAMMA   | 0.0001, 0.001, 0.01, 0.1, 0.2, 0.5
+C       | 0.01, 0.1, 1, 10, 100, 1000
