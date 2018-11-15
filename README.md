@@ -61,13 +61,9 @@ Finally the patterns are recognized and they are classified in their different c
 
 For the classification with vector support machines, the following hyper-parameters were used:
 
-Parameter     | 
+
+Parameter  | Second Header
 ------------- | -------------
 KERNEL  | rbf
-GAMMA   | 0.0001, 0.001, 0.01, 0.1, 0.2, 0.5
-C       | 0.01, 0.1, 1, 10, 100, 1000
-
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+GAMMA  | 0.0001, 0.001, 0.01, 0.1, 0.2, 0.5
+C  | 0.01, 0.1, 1, 10, 100, 1000
