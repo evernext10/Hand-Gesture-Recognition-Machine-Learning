@@ -99,3 +99,20 @@ N_JOBS  | [-1]
 <p align="center"><img src="https://lh3.googleusercontent.com/qqgJWCLN-lH1gSGA2DOM1ERjPEDJIRGcTlKUYLo9sCoDNPu3ubOLqf4Mj-5O6ZEpB3bBbrCX3IdxMoj7u57_Po1wFMXDJynEjOMRHzY8dGyehmb71qJiKBwbN0Pg03fLlQbPT_USgV2svWdlpQ6vFDgYih7luYbwrFukDSZWZ441TsLYMxJU-v4OKpKnfSY3jDOKQ7F-v2MY2v77EuOZmfxpCmgnezb87_GPM3tmM57SoGHg0yowa_cqxKzu3l-QMDFOG4wBKp921suevgHjAR9TisfSOkcwFRjGwaHhl1SB43tm8ptImZmpqJcoTokRF-hNmCN-4QgiORFtLg_f9Ma6fMZa8vHx02IDKGv1IhEC5EwTjI3UqC21gJzLXZ-nW0A30nWKHyaJ07fg57Hqk25l9024nIrQYa1UXAHKLMa-Vz03B_8MuI35Y7nXbRT8X6AKPCAzsG7bbuR7X6ZTcjKvs7rsqZde4C83pH4sgrMcc4lFs9-OPN2kfdaZ8f7552bYqVSjsTnW1rKPSfiipLVHYevfalycjgzIxEaBatlnUOWdQ_62DiVIWuZP4rooBazyWZNLqICE8hWmmXtc2vMY2Ynk4B6NQYmoDxKEMPBQpTlijC_3lOPoJ74LZLz94KexpOq8dmDnunhByG_F3lTl=w747-h603-no">
   https://photos.app.goo.gl/iRLjPgWM78wWdyxe9
 </p>
+
+<h1 align="left"><B>Results</B></h1>
+<p align="justify">
+  
+The results show where it is divided by training percentages and testing according to the characteristics compared to the performance results of precision, recall and F1-score using the vector support machines, also highlights the best result That was obtained using that classifier.  
+According to table 2, it can be seen that the best method for vector support machines is the gradient-oriented histograms with the Fourier ellipticals with a percentage of 70 %, 69 %, 69 % accuracy, recall and F1-score respectively using 80 % of Training set and 20 % test set.
+
+Being:  
+P: Precision, R: Recall and F1: F1-score
+EF: Elliptic Fourier
+HOG: gradientes-oriented histograms
+HOG-PCA: Gradient-oriented histograms with main componentes analysis
+Hu: Hu Moments
+
+<p align="center"><img src="https://lh3.googleusercontent.com/hRcPb5rEMKbzf3RsMjTvEzUrDEnWHymU7cxZv_MJnsx2iiyO4yfXq8MYF9MuT1zov2yVvkGyt8oOyFWNWLlxk6gW2fHbEB_LyCF7wG2iL6nIfRfSUVCeNioMnKtP0-_1XxEd1LBmQALRN3sVHkQXrTiJemoKZ2PrVxWtJcJgdQYv1vb0UfyMxRG1xrIQU5Ar39VapFaJEbxu51lEnkW12gO6DGpclZGf74PV9x0O82ruYbfsidpBlDEq32cOEthn91f-sAwRDOq__nbEwTXl7NwVK2CVaNl_iLzKv4VjRvl3pyKarnbiGNhqThhy0q1FWYu2MD1c9jLaup1BhnmWHoEay1hajYOmLsq7NRnHLjgo0gt-RfbFDKSuOTitfl4Bq29nmZMsnim4adr3vJRgYoJmkPBbhfOd4Tzto2_JLKlxUqGVncty3fKd7mDLUtyeHhzHkNJHT57-NT0IWMER9JDxluK0SvrrHa6W0UEozZ0bU4rA1Ya6U8CVlpMVWSnH3nB_vEAoPW3srW2DorByw1J7R59s4E4QHuHfJWbeZVjaL00Ct4ltoXerrfvFnZeVlaU9DGHqK720u2yD-0I0RT3uAjxZBfDZT3mKugttpqaijBSgKciwNOCVaHJ5n8N84AprCDVVE-ovV5DnvwTpMYNP=w576-h498-no">
+  https://photos.app.goo.gl/gCQdjaAkZDm7xwTx9
+</p>
