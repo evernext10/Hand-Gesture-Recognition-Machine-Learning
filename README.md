@@ -1,6 +1,5 @@
-<h1 align="center"><B> HAND GESTURE RECOGNITION OF NUMBER(0-5) AND VOWELS</B></h1>
+<h1 align="center"><B>Automatic method for the recognition of hand gestures for the categorization of vowels and numbers in Colombian sign language</B></h1>
 <p align="justify">
-Tesis: Automatic method for the recognition of hand gestures for the categorization of vowels and numbers in Colombian sign language
 
 This experiment developed a system which is designed to improve or facilitate communication between deaf people disability. The experiment has machine learning techniques to perform the due process of recognition of hand gestures of the Colombian sign language, recognizing the numbers from 0 to 5 and the vowels. 
 This experiment works through 4 stages: Photo taking, pre-processing of the photo, extraction of the characteristics of the photo and finally performs the classification process for the identification of the gesture being performed. 
@@ -10,3 +9,17 @@ The image is captured by any camera that poses a good quality shot. Then, move o
 <p align="justify">
 
 In this stage is done a field work, which consisted of taking Photograf ́ıas using a C ́amara Fujifilm Finepix S4800, taking into account that for each ̃na were taken 3 photos of 3 different perspectives to the hand gestures of the vowels S and the n ́umeros from 0 to 5 of the LSC. The photographs were taken to people with different sizes of ̃nos, skin color and ambient lighting. Most of the photos were taken using flash and a small ̃naparte without flash, obtaining as a result a total of 3324 photos with resolution of 4608 x 2592 pixels in format .JPG
+
+<p align="center"><img src="https://lh3.googleusercontent.com/GRAnLBiqV93ASdlP3flLgw66D6iItG10cVNqDCNsj0KyuTxySVfEwhtdGMeMTHd-hnqbuZV-WeP3Lpj5bHdlakPVk3WzpzXzRqyajX_KteWkfNqRvJcSRHFvc7q5A9pGDwm0zYFKzAu-YLAzg8PyI4kB7d2Q9hOF7IVxTq-9EA1CJtt37oWQC9zuyrAVqfumX2RF2mOYw0cxtH-P7XEWCb6SDWQt3Tut8wMbmBAL5Uus6lVWXwJv1XZCnVk_eIILALGfp_6GdFmANmNb4X6DzYA1lnSYmCyx3gEApoGgyv83yvNgLn-8-15gcoQCXk7ZKG86cwZ2xq2sndOltV4SzvizyIU-Wh-kq_vguT64ndGTP1u_7zngXDO6LL5gaJMaB-Khoi5M31PWGpLNguzm8A3QdhAX24Y95x1Ih2D4_Q-G8vIOtiRSu6WFFR2f71mD0PBrxbQmMC9MoVflloUZp0J7ucjiv1RPAc4h4R3OcpI-BhSChdBIEjbX85dpo4CbBwNttvfOx6wSgp7rJT67jfkjE353YKAp36Ay4-eD9vupynU8jlTXs33cpWvSVXqNp0rTJlqnLqVXJZdyKbEqxtS0hUL2b1YVHqW0o67DW3Hf7utYyA0bIxBcJK98MlYtBqLpiz96rPqa-b2dilet4zfm=w863-h709-no">
+  https://photos.app.goo.gl/EhYS2sWFX1tfArZx8
+</p>
+
+<h1 align="left"><B> Second step: Preprocessing</B></h1>
+<p align="justify">
+  
+In order to clean the dataset, data preprocessing techniques are applied, such as: Image resizing, RGB conversion to YCBCR, binarisation, erosion and finally filling of gaps this process is done so that in the next stage the process of Data mining is clean.
+
+<p align="center"><img src="https://lh3.googleusercontent.com/dVIMvpbrh2MXIbsNKRn0HGHp63PL2z1bnMqFkWta7Wi3i6IcLZ18wrEQclNA4MX4Bi0nXiInC9jKz7wR_zAzGsx0OwfkFKbr96Vsp0MBsTLHLsimHbt6iNz5MQqdJajSMnvwMkR314t-WOFV_xH07WPjuWov32egkK0EgWYLwt9mAeRyjPdPYRI9FsHPFZnHmN5tZE1wf_71Z6UNmQBWDLa_6MzAugR-nKIKtVmwGs0Xv_PJ6KuOzQ59Ggl0Uu_TW3v0sXtdHqnZnQPBxi7KV4SwjJknNDFxqURsS3tyuk8nuCfHsRaplUIk4xku8vkeMhNuK1rb76fkEZGHYnmoLFoiy349uATCEPSbc1jpd4tB9hbzdaGlHkbP99so5BkHl26mRDcJBSqLOGryySvWgBUjuvvV5G5Lp5_YYbO-u7tFe3Zb-Bg5gLLznIpwfO87HD_eEP7F-LQh3NzjOpYpVhO9CSxV4xM1gcqVh23rH_NAkvMGPwaRgZM-PeIRsbLFp-qPf22Pcnwx3tI5cFLptzNuubIZtHCfxMlSItHROxVmdj_Mui1BTHKJtNjeW0_CUJBVH05i6pHjbcbZk0gKvbcLue7xenqSIccklszUjMbafml2RgiMISYFHNwGbk_sEFU7NAI2I8wl82UTeYFS6ee2=w902-h709-no">
+  https://photos.app.goo.gl/fGNiT1tBzD441XYW9
+</p>
+
