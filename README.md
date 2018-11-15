@@ -59,7 +59,7 @@ First, characteristics such as Hu moments, gradient-oriented histograms, Fourier
 Following the pattern classification unit is implemented using the vector support machine method.
 Finally the patterns are recognized and they are classified in their different classes.
 
-For the classification with vector support machines, the following hyper-parameters were used:
+For the classification with Support Vector Machines, the following hyper-parameters were used:
 
 
 Parameter  | Second Header
@@ -67,3 +67,23 @@ Parameter  | Second Header
 KERNEL  | rbf
 GAMMA  | 0.0001, 0.001, 0.01, 0.1, 0.2, 0.5
 C  | 0.01, 0.1, 1, 10, 100, 1000
+
+For the classification with Neural Network, the following hyper-parameters were used:
+
+
+Parameter  | Second Header
+------------- | -------------
+ACTIVATION  | ['identity','logistic','tanh','relu']
+SOLVER  | ['lbfgs']
+LEARNING_RATE_INIT  | [0.0001]
+HIDDEN_LAYER_SIZES  | [(100, 1), (100, 2), (100, 3)]
+
+For the classification with K-Nearest Neighbors, the following hyper-parameters were used:
+
+
+Parameter  | Second Header
+------------- | -------------
+N_NEIGHBORS  | [1,2,4,6,8,10]
+ALGORITHM  | ['auto']
+WEIGHTS  | ['uniform', 'distance']
+N_JOBS  | [-1]
