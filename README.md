@@ -119,7 +119,9 @@ Hu: Hu Moments\n
 
 Then in Figure is shown the matrix of confusion for the best model of the SVM where you can see in the X axis predicted labels and on the axis and the true labels, this way you can spot graphically the model and detect in which Labels are confused more, for this case the classes with which the model is most confused with the class 0 and the U class.
 
-
+<p align="center"><img src="https://lh3.googleusercontent.com/xQN_U-S-7I6Uuanlk9IO8A_bSXVCxNv99V-oUabDtz_nfuqd61gxTGJh3vyWI9uZKWitCTaEybU8tYo9vOoiDI6Rzkacd_aMjQ78KyNaQmF57kEEOAphtEZe_81_RC4oNsZv6EvjkUP2f7UKHUlt2-BikCGEQZ-JL7EHIKuAtUv3q4gxgM8QasabU0JlzNheIuqWoaJ4UjcoTcuz_AvZ0-UvTQpqE87smEZFYJtHnKq1evkw288eJmkvEa9VwySO1I0l-bUMXfFa9Zv-7cKjq0y9rVfvqAvkYoRjFBo6sF7njS-uFqpMAAcSwQhOGl0BEIN6CSMbmxld_I8praHEM50950MUJK7Rebbo7BF5zHibFfgnDh5-jhG7nZymMypPvqGMgCJl4PZC-ZFkh7BMXZF02aNLvIHo8Y1rytyMw0InGWiok5Wnn-ljurYoEZe3R9z4JbGZ2pxk_NAb4nFHrl6kQ4m3vO5FfhKnPpxQDQn4OOzf-rlIE1b8ql8TJkcz6lbawF-mxD2SD4elFzdj1gk9EcF3OXj3ChbRB6QZ98kqR0jgq8RFGndkG2Om4w8eq0D_fvLzEOpdTnT8_Ucd5B23iyy3d8URlNPsVNehKOPLcRb92COCLix_SEkWDqj_uuSdJ4QQr9m2s_L2W21Sf8Cr=w432-h288-no">
+  https://photos.app.goo.gl/THYvWtazrRkZHtLy9
+</p>
  
 
 <h1 align="left"><B>Conclusions</B></h1>
