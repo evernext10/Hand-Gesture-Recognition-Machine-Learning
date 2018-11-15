@@ -32,10 +32,6 @@ In order to clean the dataset, data preprocessing techniques are applied, such a
   
 At this stage what is done is to represent numerically the image using the 4 methods used to extract characteristics: moments of Hu, histograms oriented to gradients, geometric characteristics and Fourier elliptic, obtaining as Result the corresponding numeric value characteristics vectors for each image. For each method used, a. txt document is generated with the image name followed by the characteristics vector and finally the tag.
 
-<p align="center"><img src="https://lh3.googleusercontent.com/GoesxLpl1Ehc-QOfwr9su07T8cB7nRE6t37RAprHrntP2QVy5CtmVxYzXwTX1JFjy1wKl2onpk9Qc0q97BfCK4ZvuSSH3qcrskVcCMlt56nps2JrFQDf-2yPQInKYNw9AcqMdPUxWKazDAB3hZV0Pxew6FskGgRL_TS9fFbCBN6TTWgXuyO71FX2Abapgaqc9hFTPmsZ29OakY9mEX0MmRqCCmRHX81h5Ld3TFtg_ibW8PApih3ljjYK8556bnjuny16S_N_Dd42cjwsq6xzMCMmyV6fy6cnFvF_FaOBCo3SjAmPc7AM4hZVZ8dr53Sc0AG_nhqkYYj7lOatTZSxFXx7o4ukGRTSxEmySh2ccm0A9HeiwiYqPhu4oXaciula4Mn4FqZXmpnuSD28m03YocLvYdXD-FrlL4f4mnb0S9OoeXhNWQeFEO8JHOmlgJY4Mld1s9CtI7JTYfJLimdSSTz2UkqH7N3hwxlVfL4kH_-X9KzubOTsoBdcHI0l10XjOZYPkUk9rVmOmYxr8pLvPfJgODkI4ozJFESkHKN1q6LgAm9-D7UEOFW8JE76ozCOLZwkCi32iqtTmPGOHdQHf9XiDzY1aJGIYhgWyXQwxnkTtfUqcVvd-_rHaqq6RNOiTEsFN2FmQuCw1E3k0k3lEFsT=w991-h707-no">
-  https://photos.app.goo.gl/3SUFPWf6E4vxiKeQ9
-</p>
-
 After getting the features we store them in. txt files:
 
 <p align="center"><img src="https://lh3.googleusercontent.com/LriTsTtLuMcjfzzCsQkqEWzHoNVTEWSvkSzopXvd4fjd_CELKKXNJFA5AmFW93TWQd5hPL1N5YbVg01bIHM055QyHrHegGWXjHG8ELP5CShPqdRTdjoKl9LMcnWe_H6OQ6KNEuKMyevL4pp10S07fj6yFdGqKXt4RXHhNVcHngxiW0vk7Q715P87P2oAMRiCHITISaxm6QYhh5I7fcIg-yo4qjnoTXi3QoSBDXqnDbTqAC0Z-bdFSG4XkAH9M0W0daZy54TsaKSA7g0iwxA9C3PTF-Lko9HYjqsUb6ul-i2CLgxbm--wgo6YHLcBiNCILgdpMI03NXrW6u-Q_tGC-UKJ2CpsiAtORVH8DjWwKO7PIdeDPgH48e-Jj_nCMmdX3wqHsiJT6CEmuC7V3a_or73auNuS5rN76YTlqLWCrNxMKboxBSrO-QFvLDlcJYO17f0uRxe1ZLueiiDcJEJ2-IiITAbtqBm7mLBxTm-DvgkvHINOq0TlqSbCkUnioyrvozNu1uacNwuOA9cG6HqR2hCHNiPsH2q310X0AsGPx3aPrvTt-TtH_zk8sYgmpRe67_QwsF0LIgRFXhf0fyW-4oyokaH7_NMTSKfXfU4sm1D9ijiwiP2ErB8gW6kxQ57uwHPR97pXXzPUq4xkDbA8YGYM=w786-h133-no">
@@ -104,7 +100,7 @@ N_JOBS  | [-1]
 <p align="justify">
   
 The results show where it is divided by training percentages and testing according to the characteristics compared to the performance results of precision, recall and F1-score using the vector support machines, also highlights the best result That was obtained using that classifier.  
-According to table 2, it can be seen that the best method for vector support machines is the gradient-oriented histograms with the Fourier ellipticals with a percentage of 70 %, 69 %, 69 % accuracy, recall and F1-score respectively using 80 % of Training set and 20 % test set.
+According to table of results below, it can be seen that the best method for vector support machines is the gradient-oriented histograms with the Fourier ellipticals with a percentage of 70 %, 69 %, 69 % accuracy, recall and F1-score respectively using 80 % of Training set and 20 % test set.
 
 Being:  
 P: Precision, R: Recall and F1: F1-score\n
@@ -113,8 +109,8 @@ HOG: gradientes-oriented histograms\n
 HOG-PCA: Gradient-oriented histograms with main componentes analysis\n
 Hu: Hu Moments\n
 
-<p align="center"><img src="https://lh3.googleusercontent.com/hRcPb5rEMKbzf3RsMjTvEzUrDEnWHymU7cxZv_MJnsx2iiyO4yfXq8MYF9MuT1zov2yVvkGyt8oOyFWNWLlxk6gW2fHbEB_LyCF7wG2iL6nIfRfSUVCeNioMnKtP0-_1XxEd1LBmQALRN3sVHkQXrTiJemoKZ2PrVxWtJcJgdQYv1vb0UfyMxRG1xrIQU5Ar39VapFaJEbxu51lEnkW12gO6DGpclZGf74PV9x0O82ruYbfsidpBlDEq32cOEthn91f-sAwRDOq__nbEwTXl7NwVK2CVaNl_iLzKv4VjRvl3pyKarnbiGNhqThhy0q1FWYu2MD1c9jLaup1BhnmWHoEay1hajYOmLsq7NRnHLjgo0gt-RfbFDKSuOTitfl4Bq29nmZMsnim4adr3vJRgYoJmkPBbhfOd4Tzto2_JLKlxUqGVncty3fKd7mDLUtyeHhzHkNJHT57-NT0IWMER9JDxluK0SvrrHa6W0UEozZ0bU4rA1Ya6U8CVlpMVWSnH3nB_vEAoPW3srW2DorByw1J7R59s4E4QHuHfJWbeZVjaL00Ct4ltoXerrfvFnZeVlaU9DGHqK720u2yD-0I0RT3uAjxZBfDZT3mKugttpqaijBSgKciwNOCVaHJ5n8N84AprCDVVE-ovV5DnvwTpMYNP=w576-h498-no">
-  https://photos.app.goo.gl/gCQdjaAkZDm7xwTx9
+<p align="center"><img src="https://lh3.googleusercontent.com/uO5jtGrZ_CgKiDxnv0Flm9tDtfjWZR2P9HFZTbxl51dU_vqWkHOE0P26WGchPcGB2PXGqG0GSenG4h67XsoMAYGoQ3nAhFp71sipXdwMhpJ8tI73gnp8zF4pzc_PQyLjCEeT5t9hp9GkbfE7v7chUTp9fasU8uvotKsPONpamBFe7TB44Cc5IsDs8a8E2oSPR4zSLCI-Mtq7uygmUocua7DaAAQ5CrJZUaqYKbqjnodO4v4HCS0Wx5a6zFSj7mF9_IlBk_akTpbSP7wqe0PRgJMtY0biDSq_aNo3Qn4eYOGGMMqx4ini5rQxsxtjj_dUtaXzO37znIa_PtVOCMQOAwndszDp4gpWSvJb9DCKdeo_4z-rEbRKu4_xozmHYes_gHgagoCcIELd-Vq8qseTYuf71ngTq7vv360Q7bOelYeK1Dwt-PzhMXX6hzy4p3Tm4lyyefOWoSYnijpZ_Q3Dw1rdmRCb84JCunRlRBM_I0YH3de757FO9dO9n-HmUoFOOgzbapF-3k_ihTmHewMN8DyHAudsiPyL0PaLbNYZUcv5LU3Z1q407HkhcyVEgNLiDbkfvxbDMFCO2tHzCobiZ-TjhME7Xt7ULbtj6AP22lRqRqHwKnx51dP0W6y_jo41WsATUaaW-dDGToOIIsQlaPUF=w581-h498-no">
+  https://photos.app.goo.gl/cmXqD2JJvhcf3in98
 </p>
 
 Then in Figure is shown the matrix of confusion for the best model of the SVM where you can see in the X axis predicted labels and on the axis and the true labels, this way you can spot graphically the model and detect in which Labels are confused more, for this case the classes with which the model is most confused with the class 0 and the U class.
@@ -128,6 +124,6 @@ Then in Figure is shown the matrix of confusion for the best model of the SVM wh
 <p align="justify">
  
  1. With this method for the recognition of Colombian sign language can be tried with new signs extending the dataset, also is open research because it can be tested with new methods of preprocessing, extraction of characteristics, classification being able to get to raise even more the percentages of prediction.
- 2. According to the methods used for the extraction of characteristics, based on table 2, the characteristics of the gradient-oriented histograms (HOG) are the ones that obtained the highest percentage.
+ 2. According to the methods used for the extraction of characteristics, based on table of results, the characteristics of the gradient-oriented histograms (HOG) are the ones that obtained the highest percentage.
  3. When performing the main component analysis process, it is concluded that this process will reduce the percentage of the model's performance measure slightly.
  4. The geometric characteristics did not give a good result because the images contain similar characteristics such as the area or contour, this results in the model being able to predict the signs in a bad way.
