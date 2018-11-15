@@ -32,4 +32,14 @@ In order to clean the dataset, data preprocessing techniques are applied, such a
   
 At this stage what is done is to represent numerically the image using the 4 methods used to extract characteristics: moments of Hu, histograms oriented to gradients, geometric characteristics and Fourier elliptic, obtaining as Result the corresponding numeric value characteristics vectors for each image. For each method used, a. txt document is generated with the image name followed by the characteristics vector and finally the tag.
 
+<p align="center"><img src="https://lh3.googleusercontent.com/GoesxLpl1Ehc-QOfwr9su07T8cB7nRE6t37RAprHrntP2QVy5CtmVxYzXwTX1JFjy1wKl2onpk9Qc0q97BfCK4ZvuSSH3qcrskVcCMlt56nps2JrFQDf-2yPQInKYNw9AcqMdPUxWKazDAB3hZV0Pxew6FskGgRL_TS9fFbCBN6TTWgXuyO71FX2Abapgaqc9hFTPmsZ29OakY9mEX0MmRqCCmRHX81h5Ld3TFtg_ibW8PApih3ljjYK8556bnjuny16S_N_Dd42cjwsq6xzMCMmyV6fy6cnFvF_FaOBCo3SjAmPc7AM4hZVZ8dr53Sc0AG_nhqkYYj7lOatTZSxFXx7o4ukGRTSxEmySh2ccm0A9HeiwiYqPhu4oXaciula4Mn4FqZXmpnuSD28m03YocLvYdXD-FrlL4f4mnb0S9OoeXhNWQeFEO8JHOmlgJY4Mld1s9CtI7JTYfJLimdSSTz2UkqH7N3hwxlVfL4kH_-X9KzubOTsoBdcHI0l10XjOZYPkUk9rVmOmYxr8pLvPfJgODkI4ozJFESkHKN1q6LgAm9-D7UEOFW8JE76ozCOLZwkCi32iqtTmPGOHdQHf9XiDzY1aJGIYhgWyXQwxnkTtfUqcVvd-_rHaqq6RNOiTEsFN2FmQuCw1E3k0k3lEFsT=w991-h707-no">
+  https://photos.app.goo.gl/3SUFPWf6E4vxiKeQ9
+</p>
+
+After getting the features we store them in. txt files:
+
+<p align="center"><img src="https://lh3.googleusercontent.com/LriTsTtLuMcjfzzCsQkqEWzHoNVTEWSvkSzopXvd4fjd_CELKKXNJFA5AmFW93TWQd5hPL1N5YbVg01bIHM055QyHrHegGWXjHG8ELP5CShPqdRTdjoKl9LMcnWe_H6OQ6KNEuKMyevL4pp10S07fj6yFdGqKXt4RXHhNVcHngxiW0vk7Q715P87P2oAMRiCHITISaxm6QYhh5I7fcIg-yo4qjnoTXi3QoSBDXqnDbTqAC0Z-bdFSG4XkAH9M0W0daZy54TsaKSA7g0iwxA9C3PTF-Lko9HYjqsUb6ul-i2CLgxbm--wgo6YHLcBiNCILgdpMI03NXrW6u-Q_tGC-UKJ2CpsiAtORVH8DjWwKO7PIdeDPgH48e-Jj_nCMmdX3wqHsiJT6CEmuC7V3a_or73auNuS5rN76YTlqLWCrNxMKboxBSrO-QFvLDlcJYO17f0uRxe1ZLueiiDcJEJ2-IiITAbtqBm7mLBxTm-DvgkvHINOq0TlqSbCkUnioyrvozNu1uacNwuOA9cG6HqR2hCHNiPsH2q310X0AsGPx3aPrvTt-TtH_zk8sYgmpRe67_QwsF0LIgRFXhf0fyW-4oyokaH7_NMTSKfXfU4sm1D9ijiwiP2ErB8gW6kxQ57uwHPR97pXXzPUq4xkDbA8YGYM=w786-h133-no">
+  https://photos.app.goo.gl/pQD4LcochbsHBvxx6
+</p>
+
 
