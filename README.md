@@ -1,5 +1,8 @@
 <h1 align="center"><B>Automatic method for the recognition of hand gestures for the categorization of vowels and numbers in Colombian sign language</B></h1>
 <p align="justify">
+ 
+<h1 align="center"><B>Método automático para el Reconocimiento de Gestos de la mano para la categorización de vocales y números en el Lenguaje de Señas Colombiano</B></h1>
+<p align="justify">
 
 This experiment developed a system which is designed to improve or facilitate communication between deaf people disability. The experiment has machine learning techniques to perform the due process of recognition of hand gestures of the Colombian sign language, recognizing the numbers from 0 to 5 and the vowels. 
 This experiment works through 4 stages: Photo taking, pre-processing of the photo, extraction of the characteristics of the photo and finally performs the classification process for the identification of the gesture being performed. 
